@@ -5,7 +5,7 @@ let config = {
         utils: './src/utils.js',
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: '[name].js',
     },
 };

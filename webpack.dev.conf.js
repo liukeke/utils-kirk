@@ -61,7 +61,7 @@ let config = merge(baseWebpackConfig, {
         port: 8001,
         hot: true,
         inline: true,
-        contentBase: path.resolve(__dirname, 'dist'),
+        contentBase: path.resolve(__dirname, 'build'),
         historyApiFallback: true,
         disableHostCheck: true,
         after() {

@@ -1,11 +1,12 @@
 {
   "name": "utils-kirk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript common utils",
-  "main": "src/utils.js",
+  "main": "dist/utils.js",
   "scripts": {
     "dev": "webpack-dev-server --devtool eval --progress --colors --profile --config webpack.dev.conf.js",
     "p": "SET BABEL_ENV=production && webpack --progress --colors --config webpack.prod.conf.js",
+    "b": "babel src/utils.js --out-file dist/utils.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,8 +1,8 @@
 {
   "name": "utils-kirk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "javascript common utils",
-  "main": "dist/utils.js",
+  "main": "src/utils.js",
   "scripts": {
     "dev": "webpack-dev-server --devtool eval --progress --colors --profile --config webpack.dev.conf.js",
     "p": "SET BABEL_ENV=production && webpack --progress --colors --config webpack.prod.conf.js",

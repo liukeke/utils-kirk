@@ -1,0 +1,52 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [
+      "jsdoc",
+      "closure"
+    ]
+  },
+  "source": {
+    "include": [
+      "src/utils.js"
+    ],
+    "exclude": [
+    ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "logoFile": "",
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "dateFormat": "ddd MMM Do YYYY",
+    "outputSourceFiles": true,
+    "outputSourcePath": true,
+    "systemName": "Kirk",
+    "footer": "",
+    "copyright": "Kirk",
+    "navType": "vertical",
+    "theme": "cerulean",
+    "linenums": true,
+    "collapseSymbols": false,
+    "inverseNav": true,
+    "protocol": "html://",
+    "methodHeadingReturns": false
+  },
+  "opts": {
+    "encoding": "utf8",
+    "recurse": true,
+    "destination": "doc/out"
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true,
+    "tags": [
+      "foo",
+      "bar"
+    ]
+  }
+}

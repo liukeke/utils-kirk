@@ -6,5 +6,3 @@ entryBuild/
 pc/
 backup/
 npm-debug*
-doc/gitbook/_book
-doc/jsdoc/out

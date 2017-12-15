@@ -5,6 +5,7 @@
   "main": "dist/utils.js",
   "scripts": {
     "dev": "webpack-dev-server --devtool eval --progress --colors --profile --config webpack.dev.conf.js",
+    "jsdoc": "node doc/delOut.js && jsdoc -t doc/docstrap/template -c doc/jsdoc.conf.json && node doc/fileCopy.js",
     "p": "SET BABEL_ENV=production && webpack --progress --colors --config webpack.prod.conf.js",
     "b": "babel src/utils.js --out-file dist/utils.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,8 +37,10 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.5.1",
+    "moment": "^2.19.4",
     "opn": "^5.1.0",
     "react-dev-utils": "^4.2.1",
+    "sanitize-html": "^1.16.3",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.5",
     "webpack-merge": "^4.1.1"
